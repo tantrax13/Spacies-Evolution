@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'foundation';
+    src: url(FoundationLogo.ttf);
+}
+@font-face {
+    font-family: 'speed';
+    src: url(Speed\ Freaks.otf);
+}
+
+body{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden !important; 
+    overflow-y: hidden !important;
+    height: 200vh;
+    width: 200vw;
+    border: none;
+    transition: 0.5s;
+}
+
+.div_h1{
+    font-family: 'foundation';
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 10vmax;
+}
+
+.Button_C{
+    margin-top: Arial;
+    font-size: 3vmax;
+    background: black;
+    color: white;
+    width: 24vw;
+    margin-right: 50vw;
+    margin-left: 50vw;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Button_C:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.Button_C2{
+    margin-top: Arial;
+    font-size: 3vmax;
+    background: black;
+    color: white;
+    width: 24vw;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'foundation';
+    text-align: center;
+
+}
+
+.Button_C2:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.Button_C3{
+    font-size: 3vmax;
+    background: black;
+    color: white;
+    width: 24vw;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'foundation';
+    display: inline-block;
+    margin-top: 29vh ;
+    margin-right: 70vw;
+}
+
+.Button_C3:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.div3{
+    text-align: center;
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    align-items: center;
+}
+
+.div4{
+    align-items: center;
+    justify-content: center;
+}
+
+.div5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p_ex{
+    font-size: 3.5vh;
+    line-height: 2;
+    width: 70vw;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    margin-bottom: 0vh;
+}
+
+.container{
+    display: flex;
+    flex-direction:row ;
+    width: 100%;
+    height: 100vh;
+}
+
+.explain{
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.connect{
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    align-items: center;
+    display: block;
+    transition: 0.5s;
+}
+
+.terre{
+    margin-top: 25vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    height: 40vh;
+    justify-content: center;
+    border: 5%;
+    animation: move 10s infinite;
+    display: flex;
+}
+
+.a_play{
+    font-family: 'foundation';
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 8vmax;
+    width: 50vw;
+    height: 25vh;
+    margin-top: 35vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+
+
+@keyframes move {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    
+}
